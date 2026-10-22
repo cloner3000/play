@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"
 
 #EXTINF:-1 tvg-id="ANTV.id" tvg-logo="https://www.an.tv/img/logo-antv.svg" group-title="Indonesia Channels",ANTV
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/01.m3u8
@@ -7,31 +7,56 @@ https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/01.m3u8
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/02.m3u8
 
 #EXTINF:-1 tvg-id="BTV.id" group-title="Indonesia Channels" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_103.png",BTV
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/03.m3u8
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
+https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
 
 #EXTINF:-1 tvg-id="CNBCIndonesia.id" tvg-logo="https://cdn.cnbcindonesia.com/cnbc/images/logo/2026/favicon.png?v=7.0.6",CNBC Indonesia
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/04.m3u8
+https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8
 
 #EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png?v=12.6.0" group-title="Indonesia Channels",CNN Indonesia
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/05.m3u8
+https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8
 
 #EXTINF:-1 tvg-id="GarudaTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/qtIYvE-mjwMPwd-VUxilo2gFiAI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/18162/b4bea2.png" group-title="Indonesia Channels",Garuda TV
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/07.m3u8
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"}
+https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
 
 #EXTINF:-1 tvg-id="GTV.id" tvg-logo="https://static.rctiplus.id/media/400/files/fta_rcti/Channel_Logo/GTV.png" group-title="Indonesia Channels",GTV
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/09.m3u8
 
-#EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-name="Indosiar" tvg-logo="https://www.indosiar.com/assets/favicon.png" group-title="Indonesia Channels",Indosiar
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/11.m3u8
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://www.indosiar.com/assets/favicon.png" group-title="Indonesia Channels",Indosiar
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1|user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1","user-agent":"DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1"}
+https://op-flashcon-digdayahd-1.dens.tv/h/h207/01.m3u8
 
 #EXTINF:-1 group-title="Indonesia Channels" tvg-id="iNews.id" tvg-logo="https://static.rctiplus.id/media/400/files/fta_rcti/Channel_Logo/iNews.png",iNews
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/12.m3u8
+https://live.i-news.tv/hls/stream.m3u8
 
 #EXTINF:-1 tvg-id="KompasTV.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_106.png" group-title="Indonesia Channels",Kompas TV
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/16.m3u8
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
+https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/mm/magna-channel-id.png" group-title="Indonesia Channels",Magna TV
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/18.m3u8
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
+https://op-flashcon-digdayahd-1.dens.tv/h/h24/01.m3u8
 
 #EXTINF:-1 tvg-id="lancartech.co.id" tvg-logo="https://client.lancartech.co.id/logo.png" group-title="Indonesia Channels", test 19
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/19.m3u8
@@ -40,13 +65,23 @@ https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/19.m3u8
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/20.m3u8
 
 #EXTINF:-1 tvg-id="MetroTV.id" group-title="Indonesia Channels" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_107.png",Metro TV
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/21.m3u8
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"}
+http://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
 
 #EXTINF:-1 tvg-id="MNCTV.id" tvg-logo="https://static.rctiplus.id/media/400/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="Indonesia Channels",MNC TV
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/22.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://object-streamo.emonaja.com/img/moji.png" group-title="Indonesia Channels", MOJI
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/23.m3u8
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206","user-agent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206"}
+https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
 
 #EXTINF:-1 tvg-id="RCTI.id" tvg-logo="https://static.rctiplus.id/media/400/files/fta_rcti/Channel_Logo/RCTI.png" group-title="Indonesia Channels",RCTI
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/26.m3u8
@@ -58,7 +93,7 @@ https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/27.m3u8
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/28.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.rtv.co.id/img/rtv.png" group-title="Indonesia Channels" ,rtv
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/29.m3u8
+https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.sctv.co.id/_nuxt/img/site-logo.43a458b.png" group-title="Indonesia Channels" ,SCTV
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/30.m3u8
@@ -67,19 +102,24 @@ https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/30.m3u8
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/32.m3u8
 
 #EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://www.transtv.co.id/themes/v25.7/src/assets/logo/01-t7.png" group-title="Indonesia Channels",Trans7
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/33.m3u8
+https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://www.transtv.co.id/themes/v25.7/src/assets/logo/01-ttv.png" group-title="Indonesia Channels",TransTV
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/34.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/tvone.png" group-title="Indonesia Channels" ,TV One
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/36.m3u8
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1|user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1","user-agent":"DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1"}
+https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8
 
 #EXTINF:-1 tvg-id="TVRI.id" tvg-name="" tvg-logo="https://object-streamo.emonaja.com/img/tvri.png" group-title="Indonesia Channels",TVRI NASIONAL (Radio)
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/37.m3u8
+https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 
 #EXTINF:-1 tvg-id="tv.gunadarma.ac.id" tvg-logo="https://tv.gunadarma.ac.id/assets/ugtv-logo.png" group-title="Indonesia Channels", UG TV
-https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/39.m3u8
+https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
 
 #EXTINF:-1 tvg-id="auto.vtv" tvg-logo="https://object-streamo.emonaja.com/img/vtv.png" group-title="Indonesia Channels",VTV
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/40.m3u8
@@ -131,3 +171,4 @@ https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/165.m3u8
 
 #EXTINF:-1 tvg-id="lancartech.co.id" tvg-logo="https://client.lancartech.co.id/logo.png" group-title="Indonesia Channels", test 189
 https://iptv.lancartech.co.id:443/Wawan007/Wawan1234/189.m3u8
+
